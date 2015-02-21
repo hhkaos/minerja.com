@@ -700,6 +700,9 @@ form .error{
     #tabMenu a[aria-controls="Accommodation"]{
         background-image: url("../img/info.png");
     }
+    #tabMenu a[aria-controls="price"] {
+      background-image: url("../img/price.png");
+    }
     #tabMenu a[aria-controls="reviews"]{
         background-image: url("../img/reviews.png");
     }

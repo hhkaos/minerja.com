@@ -2,15 +2,41 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 <?php 
+
+  $url = $_SERVER["REQUEST_URI"];
+  if(strrpos($url, "lavega") != false){$tab = 2;}
+  elseif(strrpos($url, "latorre") != false){$tab = 1;}
+  elseif(strrpos($url, "centric") != false){$tab = 3;}
+  elseif(strrpos($url, "laplaya") != false){$tab = 4;}
+
+
   $domain = $_SERVER['HTTP_HOST'];
   if($domain == "localhost"){
     $basedir = "/minerja/";
   }else{
     $basedir = "/";
   }
-  
+
+  include("../common/string.php");
 ?>
 <script>
+
+  var tab = <?php echo $tab;?>,
+      month = {
+    1: <?php echo '"'.$Enero[$l].'"'?>,
+    2: <?php echo '"'.$Febrero[$l].'"'?>,
+    3: <?php echo '"'.$Marzo[$l].'"'?>,
+    4: <?php echo '"'.$Abril[$l].'"'?>,
+    5: <?php echo '"'.$Mayo[$l].'"'?>,
+    6: <?php echo '"'.$Junio[$l].'"'?>,
+    7: <?php echo '"'.$Julio[$l].'"'?>,
+    8: <?php echo '"'.$Agosto[$l].'"'?>,
+    9: <?php echo '"'.$Septiembre[$l].'"'?>,
+    10: <?php echo '"'.$Octubre[$l].'"'?>,
+    11: <?php echo '"'.$Noviembre[$l].'"'?>,
+    12: <?php echo '"'.$Diciembre[$l].'"'?>,
+  };
+
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

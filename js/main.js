@@ -13,7 +13,39 @@ $(document).ready(function(){
   var params;
 
   var md = new MobileDetect(window.navigator.userAgent);
-  
+
+	url = "https://spreadsheets.google.com/feeds/list/1O6kZq7zZOL8d8TBzyARirJA-wxu5oYXMXkpsfD1-KOA/"+tab+"/public/values?alt=json-in-script";
+	//debugger
+	$.ajax({
+   type: 'GET',
+    url: url,
+    async: false,
+    jsonpCallback: 'JSON_CALLBACK',
+    contentType: "application/json",
+    dataType: 'jsonp',
+    success: function(json) {
+       
+       var  table = json.feed.entry,
+       			i = 0,
+       			row;
+       for (i; i< table.length; i++){
+       	row = "<td>" + table[i]["gsx$diaentrada"]["$t"] + " " +
+       				month[table[i]["gsx$nummes"]["$t"]] + " - " +
+       				table[i]["gsx$diasalida"]["$t"] + " " +
+       				month[table[i]["gsx$nummes_2"]["$t"]] + "</td>" + 
+							"<td>" + table[i]["gsx$precio"]["$t"] +"</td>"+
+							"<td>" + table[i]["gsx$estanciamin"]["$t"] +"</td>";
+
+       	$("#calendar").append("<tr>" + row + "</tr>");
+       	
+       }
+    },
+    error: function(e) {
+       console.log(e.message);
+    }
+});
+ 
+
 
   if(!md.mobile() || window.innerWidth > 767){
   	params = {

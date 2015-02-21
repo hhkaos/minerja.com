@@ -15,10 +15,11 @@
 	function count_files($dir){
 		$i = 0; 
     if ($handle = opendir($dir)) {
-        while (($file = readdir($handle)) !== false){
-            if (!in_array($file, array('.', '..')) && !is_dir($dir.$file)) 
-                $i++;
-        }
+      while (($file = readdir($handle)) !== false){
+				$pos=strstr($file, "pic");
+        if (!in_array($file, array('.', '..')) && !is_dir($dir.$file) && strlen($pos)>0) 
+          $i++;
+      }
     }
     // prints out how many were in the directory
     return $i;

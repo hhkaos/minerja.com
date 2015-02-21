@@ -112,13 +112,13 @@
             		<ul class="clearfix">
             			<li>
         					<a href="latorre/?l=<?php echo $l; ?>">
-        						<img src="latorre/photos/pic1.jpg" />
+        						<img src="latorre/photos/desktop_710/pic1.jpg" />
         					</a>
         						Villa La Torre
             			</li>
             			<li>
         					<a href="lavega/?l=<?php echo $l; ?>">
-        						<img src="lavega/photos/pic1.jpg" />
+        						<img src="lavega/photos/desktop_710/pic1.jpg" />
         					</a>
         						Villa La Vega
             			</li>

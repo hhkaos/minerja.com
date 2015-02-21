@@ -1,0 +1,147 @@
+body {
+	line-height: 16px; font-family: arial; font-size: 12px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+a {
+	color: rgb(20, 48, 59); line-height: 16px; font-family: Arial,sans-serif; font-size: 12px; cursor: pointer;
+}
+a:hover {
+	color: rgb(5, 168, 206);
+}
+.top_titre {
+	width: 765px;
+}
+.top_titre_texte {
+	color: rgb(135, 50, 25); font-size: 16px; font-weight: bold; float: left;
+}
+.top_titre_lien {
+	margin-bottom: 2px; float: right;
+}
+.App_popup_top_note {
+	padding: 3px; border: 2px solid rgb(135, 50, 25); width: 212px; height: 17px; color: rgb(135, 50, 25); font-family: arial; font-weight: bold; margin-top: 10px; margin-bottom: 15px; float: left;
+}
+.App_popup_top_reco {
+	padding: 3px; width: 535px; height: 17px; font-family: arial; font-weight: bold; margin-top: 10px; margin-bottom: 15px; border-top-color: rgb(135, 50, 25); border-right-color: rgb(135, 50, 25); border-bottom-color: rgb(135, 50, 25); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.App_popup_top_reco_blue {
+	color: rgb(5, 168, 206); clear: both; font-size: 13px; font-weight: bold; margin-bottom: 3px;
+}
+.top_sstitre_texte {
+	color: rgb(135, 50, 25); font-weight: bold; margin-top: 10px; float: left;
+}
+.top_sstitre_texte-tri {
+	margin-top: 10px; float: right;
+}
+.top_sstitre_texte-tri_text {
+	margin: 0px 7px; float: left; display: block;
+}
+.top_sstitre_texte-tri_puce {
+	background: url("../Images/Search/fleche_bas.jpg") no-repeat left; margin: 0px 7px; padding-left: 9px; text-decoration: underline; float: left; display: block;
+}
+#top_sstitre_texte-tri_puce_blue {
+	background: url("../Images/Search/fleche_bas.jpg") no-repeat left; margin: 0px 7px; color: rgb(5, 168, 206); padding-left: 9px; font-weight: bold; text-decoration: none; float: left; display: block;
+}
+.top_titre_barre {
+	width: 763px; height: 2px; clear: both; font-size: 2px; margin-bottom: 10px; background-color: rgb(135, 50, 25);
+}
+.Summary {
+	color: rgb(20, 48, 59); line-height: 15px; font-family: Arial,Sans-Serif; font-size: 12px;
+}
+.Summary .Header {
+	color: white; line-height: 12px; font-weight: bold; text-decoration: none; background-color: rgb(135, 50, 25);
+}
+.Summary .Brown {
+	color: rgb(151, 50, 25); line-height: 16px; font-weight: bold;
+}
+.App_Block {
+	border: 1px solid rgb(165, 165, 165); width: 762px;
+}
+.App_Block_Anchor {
+	width: 100%; height: 2px;
+}
+.App_Block_Note {
+	margin: 5px 0px 0px 10px; color: rgb(5, 168, 206); font-size: 13px; font-weight: bold;
+}
+.App_Block_Note_big {
+	color: rgb(5, 168, 206); font-size: 15px; font-weight: bold;
+}
+.App_Block_App {
+	margin: 5px 10px; text-align: justify;
+}
+.App_Block_Signature {
+	margin: 5px 10px 5px 0px; text-align: right;
+}
+.App_Block_Signature_Brown {
+	text-align: right; color: rgb(135, 50, 25); font-size: 13px; font-weight: bold;
+}
+.App_Block_02 {
+	width: 762px; padding-top: 5px; border-right-color: rgb(165, 165, 165); border-bottom-color: rgb(165, 165, 165); border-left-color: rgb(165, 165, 165); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.App_Block_02_Detail_titre {
+	margin: 0px 0px 5px 10px; font-weight: bold;
+}
+.App_Block_02_Detail {
+	margin: 0px 0px 5px 10px; height: 50px;
+}
+.App_Block_02_Detail_conf {
+	float: left;
+}
+.App_Block_02_Detail_note {
+	margin: 0px 0px 0px 10px; padding: 0px; float: left;
+}
+.App_Block_02_Detail_name {
+	background: url("../Images/adsheet/puce_descriptif.jpg") no-repeat left 6px; width: 115px; height: 20px; padding-left: 10px; float: left;
+}
+.clear {
+	clear: both;
+}
+.App_Block_02_big {
+	color: rgb(5, 168, 206); font-size: 13px; font-weight: bold; margin-left: 10px; float: left; display: block;
+}
+.App_Block_02_Detail_reco {
+	clear: both; margin-bottom: 5px; margin-left: 10px;
+}
+.App_Block_02_oui {
+	color: rgb(5, 168, 206); font-size: 13px; font-weight: bold; margin-left: 10px;
+}
+.App_Block_num_pop {
+	width: 762px; text-align: right; color: rgb(20, 48, 59); font-size: 11px; margin-top: 2px;
+}
+.App_Block_red {
+	margin: 5px 0px 0px 10px; color: red; font-weight: bold;
+}
+.App_Block a {
+	margin: 5px 0px 5px 10px; font-weight: bold; display: block;
+}
+.App_Block a:hover {
+	font-weight: bold;
+}
+.App_Block_bg {
+	width: 760px; padding-bottom: 5px; border-top-color: rgb(165, 165, 165); border-right-color: rgb(165, 165, 165); border-left-color: rgb(165, 165, 165); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; background-color: rgb(216, 216, 216);
+}
+.App_Block_bg_refus {
+	padding: 5px 0px; border: 1px solid rgb(165, 165, 165); width: 762px; margin-bottom: 10px; background-color: rgb(216, 216, 216);
+}
+.App_Block_bg_text {
+	margin: 3px 0px 0px 10px;
+}
+.App_Block_bg_text_puce {
+	background: url("../Images/adsheet/bullet_triangle_black.gif") no-repeat left; margin: 5px 0px 0px 10px; padding-left: 9px;
+}
+.App_Block_bg_text_b {
+	font-weight: bold;
+}
+.App_liens {
+	text-align: center;
+}
+.App_liens_grey {
+	text-align: center; color: rgb(165, 165, 165); margin-bottom: 20px;
+}
+.App_liens_grey a {
+	color: rgb(165, 165, 165);
+}
+.App_liens_grey a:hover {
+	color: rgb(5, 168, 206);
+}

@@ -31,16 +31,7 @@
 		<script src="../js/mobile-detect.min.js"></script>
 		<script src="../js/jquery.bxslider.min.js"></script>
 		<script type="text/javascript">
-			<?php 
-                if(file_exists("photos/desktop_710")){
-                    $fi = new FilesystemIterator("photos/desktop_710", FilesystemIterator::SKIP_DOTS); 
-                    echo "var num_photos_desktop = ".iterator_count($fi).";";
-                }
-                if(file_exists("photos/mobile_350")){
-                    $fi = new FilesystemIterator("photos/mobile_350", FilesystemIterator::SKIP_DOTS); 
-                    echo "var num_photos_mobile = ".iterator_count($fi).";";
-                }
-            ?>
+			<?php include("../common/header_scripts.php"); ?>
 		</script>
 		<script src="../js/main.js"></script>
     </head>

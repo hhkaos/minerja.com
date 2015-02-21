@@ -55,7 +55,7 @@ $(document).ready(function(){
       useCSS: false
     }
 
-    for(i=1; i<=num_photos_desktop; i++){
+    for(i=1; i<num_photos_desktop; i++){
       $(".bxslider").append('<li><img src="photos/desktop_710/pic'+ i +'.jpg" /></li>')
     }
     $(".bxslider").append('<li><iframe width="560" height="409" src="https://www.youtube.com/embed/pSZGiLgROw4" frameborder="0" allowfullscreen></iframe></li>');
@@ -65,11 +65,11 @@ $(document).ready(function(){
     }
 
     if(num_photos_mobile > 0){
-      for(i=1; i<=num_photos_mobile; i++){
+      for(i=1; i<num_photos_mobile; i++){
         $(".bxslider").append('<li><img src="photos/mobile_350/pic'+ i +'.jpg" /></li>')
       }
     }else{
-      for(i=1; i<=num_photos_desktop; i++){
+      for(i=1; i<num_photos_desktop; i++){
         $(".bxslider").append('<li><img src="photos/desktop_710/pic'+ i +'.jpg" /></li>')
       }
     }

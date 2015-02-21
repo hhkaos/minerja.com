@@ -22,6 +22,7 @@ Lo primero que tendrás que hacer es personalizar con tus propias casas, para el
 2. Haz un duplicado de [esta hoja de Drive](https://docs.google.com/spreadsheets/d/1O6kZq7zZOL8d8TBzyARirJA-wxu5oYXMXkpsfD1-KOA/edit?usp=sharing) y hazla pública
 3. Sustituye el ID en la variable URL en el fichero common/header.php por el ID de la hoja que acabas de crear.
 4. Modifica las cadenas de texto y las fotos por las de las nuevas viviendas
+5. En script/utils.php cambia las direcciones de correo a las que quiere que envíe el formulario de contacto
 
 #### Añadir casa nueva
 1. Duplica alguna de las carpetas de las casas

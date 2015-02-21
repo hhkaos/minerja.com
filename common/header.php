@@ -17,7 +17,12 @@
     $basedir = "/";
   }
 
-  include("../common/string.php");
+  if(file_exists("../common/string.php")){
+    include("../common/string.php");  
+  }else{
+    include("common/string.php");  
+  }
+  
 ?>
 <script>
 

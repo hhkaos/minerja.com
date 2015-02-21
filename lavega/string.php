@@ -31,6 +31,10 @@
 							away the hours just footsteps from your door.</p>
 						   ";
 
+	$bedrooms["es"] = "Dormitorios:";
+	$bedrooms["fr"] = "Dormitories:";
+	$bedrooms["en"] = "Bedrooms:";
+
 	$bedrooms_det["es"] = "1 Dormitorio con cama de matrimonio.<br>2 Dormitorios con dos camas individuales cada uno.";
 	$bedrooms_det["fr"] = "1 Chambre avec double , 150x190 .<br>2 chambres avec deux lits simples 90x190 chacune.";
 	$bedrooms_det["en"] = "Bedroom 1 with double bed.<br>Bedroom 2 and 3 with twin beds.";

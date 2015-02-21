@@ -3,13 +3,6 @@
 <![endif]-->
 <?php 
 
-  $url = $_SERVER["REQUEST_URI"];
-  if(strrpos($url, "lavega") != false){$tab = 2;}
-  elseif(strrpos($url, "latorre") != false){$tab = 1;}
-  elseif(strrpos($url, "centric") != false){$tab = 3;}
-  elseif(strrpos($url, "laplaya") != false){$tab = 4;}
-
-
   $domain = $_SERVER['HTTP_HOST'];
   if($domain == "localhost"){
     $basedir = "/minerja/";
@@ -22,11 +15,11 @@
   }else{
     include("common/string.php");  
   }
-  
 ?>
+
 <script>
 
-  var tab = <?php echo $tab;?>,
+  var tab,
       month = {
     1: <?php echo '"'.$Enero[$l].'"'?>,
     2: <?php echo '"'.$Febrero[$l].'"'?>,
@@ -41,6 +34,16 @@
     11: <?php echo '"'.$Noviembre[$l].'"'?>,
     12: <?php echo '"'.$Diciembre[$l].'"'?>,
   };
+
+  if(window.location.href.indexOf("latorre")){
+    tab = 1;
+  }else if(window.location.href.indexOf("lavega")){
+    tab = 2;
+  }else if(window.location.href.indexOf("centric")){
+    tab = 3;
+  }else if(window.location.href.indexOf("laplaya")){
+    tab = 4;
+  }
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

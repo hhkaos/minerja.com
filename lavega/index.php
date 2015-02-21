@@ -36,7 +36,7 @@
 		<script src="../js/main.js"></script>
     </head>
     <body>
-    	<?php include("../common/header.html"); ?>
+    	<?php include("../common/header.php"); ?>
 
         <div class="container">
             <section class="row">
@@ -311,21 +311,21 @@
             	<div class="col-md-12">
             		<ul id="others" class="clearfix">
             			<li>
-								<a href="../latorre">
-	        						<img src="../latorre/photos/pic1.jpg" />
+								<a href="<?php echo $basedir;?>latorre/?l=<?php echo $l; ?>">
+	        						<img src="<?php echo $basedir;?>latorre/photos/pic1.jpg" />
 	        					</a>
 	        					Villa La Torre
             			</li>
 
             			<li>
-										<a href="../Playa/index.htm">
-											<img src="../laplaya/photos/pic1.jpg" />
+										<a href="<?php echo $basedir;?>Playa/index.htm">
+											<img src="<?php echo $basedir;?>laplaya/photos/pic1.jpg" />
 										</a>
         						La Playa Apartament
             			</li>
             			<li>
-										<a href="../nueva/fotos%20del%20piso.htm">
-											<img src="../centric/photos/pic1.jpg" />
+										<a href="<?php echo $basedir;?>nueva/fotos%20del%20piso.htm">
+											<img src="<?php echo $basedir;?>centric/photos/pic1.jpg" />
 										</a>
 										Centric apartament
             			</li>

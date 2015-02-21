@@ -1,7 +1,7 @@
 <?php
 	include("string.php");
 	include("scripts/utils.php");
-	
+
 	$l = get_lang();
 ?>
 <!doctype html>
@@ -18,13 +18,13 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">		
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<link href="css/main.css" rel="stylesheet" />
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		
+
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<script src="js/mobile-detect.min.js"></script>
 		<style type="text/css">
@@ -78,10 +78,10 @@
 					font-size: 1.5em;
 				}
 				.home p,h2{
-					font-size: 1em;	
+					font-size: 1em;
 				}
 				.home .btn{
-					font-size: 1em;		
+					font-size: 1em;
 				}
 				#properties li{
 					margin-bottom: 1em;
@@ -96,16 +96,16 @@
 		<script src="js/main.js"></script>
     </head>
     <body>
-        <?php include("common/header.html"); ?>
+        <?php include("common/header.php"); ?>
 
         <div class="container">
             <section class="row header">
             	<div class="col-md-6 acenter home">
             		<h1><?php echo $header_h1[$l]; ?></h1>
-            		
+
             		<p><?php echo $claim[$l]; ?></p>
             		<a class="btn btn-lg btn-warning" href="#guide"><?php echo $btn[$l]; ?></a>
-            		
+
             	</div>
             	<div class="col-md-6" id="properties">
             		<h2><?php echo $properties[$l]; ?></h2>
@@ -114,30 +114,30 @@
         					<a href="latorre/?l=<?php echo $l; ?>">
         						<img src="latorre/photos/pic1.jpg" />
         					</a>
-        					Villa La Torre
+        						Villa La Torre
             			</li>
             			<li>
         					<a href="lavega/?l=<?php echo $l; ?>">
         						<img src="lavega/photos/pic1.jpg" />
         					</a>
-        					Villa La Vega
+        						Villa La Vega
             			</li>
             			<li>
         					<a href="Playa/index.htm">
         						<img src="laplaya/photos/pic1.jpg" />
         					</a>
-        					La playa apartment
+        						La playa apartment
             			</li>
             			<li>
         					<a href="nueva/fotos%20del%20piso.htm">
         						<img src="centric/photos/pic1.jpg" />
         					</a>
-        					Centric apartment
+        						Centric apartment
             			</li>
             		</ul>
             	</div>
             </section>
-        </div>                
+        </div>
         <iframe id="guide" width="100%" height="550px" src="http://hhkaos2.maps.arcgis.com/apps/MapJournal/index.html?appid=e2fb6e3d480f4247a6295eee676db358" frameborder="0" scrolling="no"></iframe>
     </body>
 </html>

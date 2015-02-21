@@ -30,7 +30,7 @@
 	$also_anounced_images["fr"] = '
 		<ul class="announces acenter">
 			<li>
-				<a href="http://www.homeaway.es/p484671?refid=property_link&catid=484671">
+				<a href="http://www.abritel.fr/location-vacances/p484671a">
 					<img src="../img/homeaway.png" class="homeaway">
 				</a>
 			</li>
@@ -49,7 +49,7 @@
 	$also_anounced_images["en"] = '
 		<ul class="announces acenter">
 			<li>
-				<a href="http://www.homeaway.es/p484671?refid=property_link&catid=484671">
+				<a href="http://www.homeaway.co.uk/property/preview/484671">
 					<img src="../img/homeaway.png" class="homeaway">
 				</a>
 			</li>
@@ -137,27 +137,33 @@
 	$facilities_det["en"] = "Barbecue, Private Pool, Parking. <br> Tables and chairs terraces, loungers, parasol. <br> Possibility of a cot.";
 
 
-	$prices_text_1["es"] = "";
-	$prices_text_1["fr"] = "";
+	$prices_text_1["es"] = "Llegada después de las 3pm. Salida 9:30 am, aunque esto es flexible, depende de la ocupación en el día de salida. Día de cambio flexible; en Julio y
+Agosto los dias de cambio son los sábados";
+	$prices_text_1["fr"] = "Arrivée après 15 heures. Départ à 09h30, même si ce est flexible, en fonction de l'occupation sur le jour du départ. Les jours de basculement sont fiables; en Juillet et
+Août, les jours de changement sont le samedi";
 	$prices_text_1["en"] = "<strong>Changeover day</strong><br>
-													Change over day is flexible. Arrival after 3pm. Departure 9:30am, though this is 
-													flexible dependent on occupancy requirements on the departure day. In July and 
+													Change over day is flexible. Arrival after 3pm. Departure 9:30am, though this is
+													flexible dependent on occupancy requirements on the departure day. In July and
 													August the Change over day is to Saturday.";
 
-	$prices_text_2["es"] = "";
-	$prices_text_2["fr"] = "";
+	$prices_text_2["es"] = "<strong>Reservas</strong> <br>
+20% en la reserva. 20% un mes antes de su llegada. 60% restante a su llegada a la villa.
+30% de depósito, devuelto al final.";
+	$prices_text_2["fr"] = "<strong>Réservation</strong><br>
+20% en réserve. 20% un mois avant son arrivée. 60% restants avant d'entrer.
+Dépôt de 30% sont retournés à la fin.";
 	$prices_text_2["en"] = "<strong>Booking notes</strong><br>
-													25% in reserve. 25% a month before his arrival. Remaining 50% before entering. 
+													20% in reserve. 20% a month before his arrival. Remaining 60% before entering.
 													30% deposit returned at the end.";
 
 	$more_reviews["es"] = 'Puedes leer más opiniones en <a href="http://www.homeaway.es/p484671?refid=property_link&catid=484671#reviews">homeaway.es</a> y en <a href="http://www.ownersdirect.co.uk/accommodation/p8045197#reviews">ownersdirect.co.uk</a>';
-	$more_reviews["fr"] = 'Vous pouvez lire plus de commentaires dans <a href="http://www.homeaway.es/p484671?refid=property_link&catid=484671#reviews">homeaway.es</a> et dans <a href="http://www.ownersdirect.co.uk/accommodation/p8045197#reviews">ownersdirect.co.uk</a>';
-	$more_reviews["en"] = 'You can read more reviews in <a href="http://www.ownersdirect.co.uk/accommodation/p8045197#reviews">ownersdirect.co.uk</a> and <a href="http://www.homeaway.es/p484671?refid=property_link&catid=484671#reviews">homeaway.es</a>';
+	$more_reviews["fr"] = 'Vous pouvez lire plus de commentaires dans <a href="http://www.abritel.fr/location-vacances/p484671a#reviews">abritel.fr</a> et dans <a href="http://www.ownersdirect.co.uk/accommodation/p8045197#reviews">ownersdirect.co.uk</a>';
+	$more_reviews["en"] = 'You can read more reviews in <a href="http://www.ownersdirect.co.uk/accommodation/p8045197#reviews">ownersdirect.co.uk</a> and <a href="http://www.homeaway.co.uk/p484671#reviews">homeaway.co.uk</a>';
 
 	$form_value["es"] = "Villa La Torre";
 	$form_value["fr"] = "Villa La Torre";
 	$form_value["en"] = "Villa La Torre";
-					    	
-	$map_link = "https://www.google.com/maps/d/viewer?ll=36.745427,-3.902249&t=h&ie=UTF8&msa=0&spn=0.002033,0.003433&z=18&hl=es&mid=ztbfN8FcwyKs.kcAE7rrVY5uk"; 
+
+	$map_link = "https://www.google.com/maps/d/viewer?ll=36.745427,-3.902249&t=h&ie=UTF8&msa=0&spn=0.002033,0.003433&z=18&hl=es&mid=ztbfN8FcwyKs.kcAE7rrVY5uk";
 	$map_img = "https://maps.googleapis.com/maps/api/staticmap?center=36.744243,-3.902435&zoom=17&size=500x400&maptype=satellite&markers=color:blue%7C36.745191,-3.902487";
 ?>

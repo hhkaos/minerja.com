@@ -39,20 +39,9 @@
 	$prices_col3["fr"] = "";
 	$prices_col3["en"] = "Min. Stay (Nights)";
 
-	$availability_txt1["es"] = "En cada semana aparece el precio del alojamiento.<br>
-					    		Si tienen alguna duda, por favor, contáctame bien por e-mail nerja@gmx.es o por teléfono: +34-655087577.";
-  $availability_txt1["fr"] = "Chaque semaine, le prix du logement apparaît <br> Si vous avez des questions, s'il vous plaît contactez-moi par e-mail: nerja@gmx.es ou par téléphone. + 34-655087577";
-	$availability_txt1["en"] = "The rental price appears every week. <br>
-								If you have any questions, please contact me by e-mail nerja@gmx.es or by phone: + 34-655087577.";
-
-
-	$availability_txt2["es"] = "HORARIO DE ENTRADA Y SALIDA";
-	$availability_txt2["fr"] = "HEURES";
-	$availability_txt2["en"] = "TIME OF ENTRY AND EXIT";
-
-	$availability_txt3["es"] = "Horario de entrada: El primer día del alquiler a partir de las 15.00 horas (en algunos casos es posible adelantarlo, según disponibilidad).Horario de salida: Al día siguiente del último día de alquiler antes de las 9.30 horas de la mañana.";
-	$availability_txt3["fr"] = "Arrivée: Le premier jour de location à partir de 15,00 (dans certains cas, il est possible d'avancer, sous réserve de disponibilité). Départ: le dernier jour de location avant 09h30.";
-	$availability_txt3["en"] = "Check In: The first rent day from 15.00 (in some cases it is possible to advance, subject to availability). Check Out: the last day of rental before 9:30 am.";
+	$availability_txt1["es"] = "Si tienen alguna duda, por favor, contáctame bien por e-mail nerja@gmx.es o por teléfono: +34-655087577.";
+  $availability_txt1["fr"] = "Si vous avez des questions, s'il vous plaît contactez-moi par e-mail: nerja@gmx.es ou par téléphone. + 34-655087577";
+	$availability_txt1["en"] = "If you have any questions, please contact me by e-mail nerja@gmx.es or by phone: + 34-655087577.";
 
 	$Enero["es"] = "Enero";
 	$Enero["fr"] = "";

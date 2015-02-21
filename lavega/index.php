@@ -31,7 +31,16 @@
 		<script src="../js/mobile-detect.min.js"></script>
 		<script src="../js/jquery.bxslider.min.js"></script>
 		<script type="text/javascript">
-			var num_photos = 18;
+			<?php 
+                if(file_exists("photos/desktop_710")){
+                    $fi = new FilesystemIterator("photos/desktop_710", FilesystemIterator::SKIP_DOTS); 
+                    echo "var num_photos_desktop = ".iterator_count($fi).";";
+                }
+                if(file_exists("photos/mobile_350")){
+                    $fi = new FilesystemIterator("photos/mobile_350", FilesystemIterator::SKIP_DOTS); 
+                    echo "var num_photos_mobile = ".iterator_count($fi).";";
+                }
+            ?>
 		</script>
 		<script src="../js/main.js"></script>
     </head>
@@ -49,7 +58,7 @@
             		<ul id="others" class="clearfix">
             			<li>
 								<a href="<?php echo $basedir;?>latorre/?l=<?php echo $l; ?>">
-	        						<img src="<?php echo $basedir;?>latorre/photos/pic1.jpg" />
+	        						<img src="<?php echo $basedir;?>latorre/photos/desktop_710/pic1.jpg" />
 	        					</a>
 	        					Villa La Torre
             			</li>

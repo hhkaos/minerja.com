@@ -1,6 +1,8 @@
 <?php
 	function get_lang(){
-		$l = $_GET["l"];
+		if(array_key_exists("l",$_GET)){
+			$l = $_GET["l"];
+		}
 		$lang_supported = array("en", "es", "fr");
 		if(!isset($l)){
 			$l = "en";

@@ -114,6 +114,7 @@ Dépôt de 30% sont retournés à la fin.";
 	$prices_text_2["en"] = "<strong>Booking notes: </strong>20% in reserve. 20% a month before his arrival. Remaining 60% before entering.
 													30% deposit returned at the end.";
 
+  $fanpage = "https://www.facebook.com/pages/Villa-La-Vega/452593368228422";
 
 	$map_link = "http://www.bing.com/maps/?v=2&cp=q3q86dgp8p4d&lvl=18.36152700898244&dir=355.9770790835947&sty=b&cid=10A4F79D80300581!185&form=LMLTCC";
 	$map_img = "https://maps.googleapis.com/maps/api/staticmap?center=36.741558,-3.884952&zoom=17&size=500x400&maptype=satellite&markers=color:blue%7C36.741558,-3.884952";

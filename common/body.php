@@ -99,7 +99,7 @@
 					<p><?php echo $more_reviews[$l]; ?></p>
 					<div
 					class="fb-comments"
-					data-href="https://www.facebook.com/pages/Villa-La-Torre/797972976937424"
+					data-href="<?php echo $fanpage; ?>"
 					data-numposts="7"
 					data-width="100%"
 					data-colorscheme="light">

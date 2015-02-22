@@ -154,6 +154,8 @@ Dépôt de 30% sont retournés à la fin.";
 	$form_value["fr"] = "Villa La Torre";
 	$form_value["en"] = "Villa La Torre";
 
+	$fanpage = "";
+
 	$map_link = "http://www.bing.com/maps/?v=2&cp=q3q86dgp8p4d&lvl=18.36152700898244&dir=355.9770790835947&sty=b&cid=10A4F79D80300581!185&form=LMLTCC";
 	$map_img = "https://maps.googleapis.com/maps/api/staticmap?center=36.741558,-3.884952&zoom=17&size=500x400&maptype=satellite&markers=color:blue%7C36.741558,-3.884952";
 

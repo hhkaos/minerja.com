@@ -12,7 +12,7 @@
 	$menu_avail["en"] = "Availability";
 
 	$menu_price["es"] = "Precio";
-	$menu_price["fr"] = "Tarif";
+	$menu_price["fr"] = "Tarifs";
 	$menu_price["en"] = "Price";
 
 	$menu_contact["es"] = "Contacto";
@@ -23,20 +23,20 @@
 	$menu_loc["fr"] = "Localisation";
 	$menu_loc["en"] = "Location";
 
-	$check_others["es"] = "Otras propiedades similares:";
-	$check_others["fr"] = "Propriétés similaires:";
+	$check_others["es"] = "Otras propiedades:";
+	$check_others["fr"] = "D'autres propriétés:";
 	$check_others["en"] = "Check other properties:";
 
 	$prices_col1["es"] = "Periodo de alquiler";
-	$prices_col1["fr"] = "";
+	$prices_col1["fr"] = "Durée de location";
 	$prices_col1["en"] = "Rental period";
 
 	$prices_col2["es"] = "Precio por semana";
-	$prices_col2["fr"] = "";
+	$prices_col2["fr"] = "Prix par semaine";
 	$prices_col2["en"] = "Price per week";
 
 	$prices_col3["es"] = "Estancia mín. (noches)";
-	$prices_col3["fr"] = "";
+	$prices_col3["fr"] = "Séjour min. (Nuits)";
 	$prices_col3["en"] = "Min. Stay (Nights)";
 
 	$availability_txt1["es"] = "Si tienen alguna duda, por favor, contáctame bien por e-mail nerja@gmx.es o por teléfono: +34-655087577.";
@@ -44,99 +44,99 @@
 	$availability_txt1["en"] = "If you have any questions, please contact me by e-mail nerja@gmx.es or by phone: + 34-655087577.";
 
 	$Enero["es"] = "Enero";
-	$Enero["fr"] = "";
+	$Enero["fr"] = "Janvier";
 	$Enero["en"] = "January";
 
 	$Ene["es"] = "Ene";
-	$Ene["fr"] = "";
+	$Ene["fr"] = "Jan";
 	$Ene["en"] = "Jan";
 
 	$Febrero["es"] = "Febrero";
-	$Febrero["fr"] = "";
+	$Febrero["fr"] = "Février";
 	$Febrero["en"] = "February";
 
 	$Feb["es"] = "Feb";
-	$Feb["fr"] = "";
+	$Feb["fr"] = "Fév";
 	$Feb["en"] = "Feb";
 
 	$Marzo["es"] = "Marzo";
-	$Marzo["fr"] = "";
+	$Marzo["fr"] = "Mars";
 	$Marzo["en"] = "March";
 
 	$Mar["es"] = "Mar";
-	$Mar["fr"] = "";
+	$Mar["fr"] = "Mar";
 	$Mar["en"] = "Mar";
 
 	$Abril["es"] = "Abril";
-	$Abril["fr"] = "";
+	$Abril["fr"] = "Avril";
 	$Abril["en"] = "April";
 
 	$Abr["es"] = "Abr";
-	$Abr["fr"] = "";
+	$Abr["fr"] = "Avr";
 	$Abr["en"] = "Apr";
 
 	$Mayo["es"] = "Mayo";
-	$Mayo["fr"] = "";
+	$Mayo["fr"] = "Mai";
 	$Mayo["en"] = "May";
 
 	$May["es"] = "May";
-	$May["fr"] = "";
+	$May["fr"] = "Mai";
 	$May["en"] = "May";
 
 	$Junio["es"] = "Junio";
-	$Junio["fr"] = "";
+	$Junio["fr"] = "Juin";
 	$Junio["en"] = "June";
 
 	$Jun["es"] = "Jun";
-	$Jun["fr"] = "";
+	$Jun["fr"] = "Jui";
 	$Jun["en"] = "Jun";
 
 	$Julio["es"] = "Julio";
-	$Julio["fr"] = "";
+	$Julio["fr"] = "Juillet";
 	$Julio["en"] = "July";
 
 	$Jul["es"] = "Jul";
-	$Jul["fr"] = "";
+	$Jul["fr"] = "Jui";
 	$Jul["en"] = "Jul";
 
 	$Agosto["es"] = "Agosto";
-	$Agosto["fr"] = "";
+	$Agosto["fr"] = "Août";
 	$Agosto["en"] = "August";
 
 	$Ago["es"] = "Ago";
-	$Ago["fr"] = "";
+	$Ago["fr"] = "Aoû";
 	$Ago["en"] = "Aug";
 
 	$Septiembre["es"] = "Septiembre";
-	$Septiembre["fr"] = "";
+	$Septiembre["fr"] = "Septembre";
 	$Septiembre["en"] = "September";
 
 	$Sep["es"] = "Sep";
-	$Sep["fr"] = "";
+	$Sep["fr"] = "Sep";
 	$Sep["en"] = "Sep";
 
 	$Octubre["es"] = "Octubre";
-	$Octubre["fr"] = "";
+	$Octubre["fr"] = "Octobre";
 	$Octubre["en"] = "October";
 
 	$Oct["es"] = "Oct";
-	$Oct["fr"] = "";
+	$Oct["fr"] = "Oct";
 	$Oct["en"] = "Oct";
 
 	$Noviembre["es"] = "Noviembre";
-	$Noviembre["fr"] = "";
+	$Noviembre["fr"] = "Novembre";
 	$Noviembre["en"] = "November";
 
 	$Nov["es"] = "Nov";
-	$Nov["fr"] = "";
+	$Nov["fr"] = "Nov";
 	$Nov["en"] = "Nov";
 
 	$Diciembre["es"] = "Diciembre";
-	$Diciembre["fr"] = "";
+	$Diciembre["fr"] = "Décembre";
 	$Diciembre["en"] = "December";
 
 	$Dic["es"] = "Dic";
-	$Dic["fr"] = "";
+	$Dic["fr"] = "Déc";
 	$Dic["en"] = "Dec";
 
 	$form_success["es"] = "¡Gracias!, el correo se ha enviado con éxito, me pondré en contacto contigo lo antes posible.";
@@ -153,7 +153,7 @@
 
 	$form_title["es"] = "Formulario de contacto";
 	$form_title["fr"] = "Formulaire de contact";
-	$form_title["en"] = "Contact form";
+	$form_title["en"] = "Send an enquiry to the owner for booking or further information";
 
 	$form_name["es"] = "Nombre:";
 	$form_name["fr"] = "Nom";

@@ -117,7 +117,7 @@
 				<p><?php echo $prices_text_2[$l]; ?></p>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="availability">
-				<?php include("calendar.php"); ?>
+				<iframe src="<?php echo $calendar; ?>" style=" border-width:0;width:100% " height="600" frameborder="0" scrolling="no"></iframe>
 
 				<p class="acenter mt1">
 					<?php echo $availability_txt1[$l]; ?>

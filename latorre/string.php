@@ -157,5 +157,5 @@ Dépôt de 30% sont retournés à la fin.";
 	$map_link = "https://www.google.com/maps/d/viewer?ll=36.745427,-3.902249&t=h&ie=UTF8&msa=0&spn=0.002033,0.003433&z=18&hl=es&mid=ztbfN8FcwyKs.kcAE7rrVY5uk";
 	$map_img = "https://maps.googleapis.com/maps/api/staticmap?center=36.744243,-3.902435&zoom=17&size=500x400&maptype=satellite&markers=color:blue%7C36.745191,-3.902487";
 
-	$calendar = "https://www.google.com/calendar/embed?showTitle=0&amp;showTz=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=7&amp;bgcolor=%23FFFFFF&amp;src=udlpftvoqovualkk8rh1178s84%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Europe%2FMadrid";
+	$calendar = "https://www.google.com/calendar/embed?showTitle=0&amp;showTz=0&amp;showPrint=0&amp;showCalendars=0&amp;height=400&amp;wkst=7&amp;bgcolor=%23FFFFFF&amp;src=udlpftvoqovualkk8rh1178s84%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Europe%2FMadrid";
 ?>

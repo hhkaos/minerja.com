@@ -35,13 +35,13 @@
     12: <?php echo '"'.$Diciembre[$l].'"'?>,
   };
 
-  if(window.location.href.indexOf("latorre")){
+  if(window.location.href.indexOf("latorre")!=-1){
     tab = 1;
-  }else if(window.location.href.indexOf("lavega")){
+  }else if(window.location.href.indexOf("lavega")!=-1){
     tab = 2;
-  }else if(window.location.href.indexOf("centric")){
+  }else if(window.location.href.indexOf("centro")!=-1){
     tab = 3;
-  }else if(window.location.href.indexOf("laplaya")){
+  }else if(window.location.href.indexOf("laplaya")!=-1){
     tab = 4;
   }
 

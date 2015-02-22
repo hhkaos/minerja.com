@@ -115,8 +115,8 @@ Dépôt de 30% sont retournés à la fin.";
 													30% deposit returned at the end.";
 
 
-	$map_link = "http://maps.google.es/maps/ms?ie=UTF8&hl=es&msa=0&msid=112550728994123716925.0004527ae1f5e545287e5&ll=36.744954,-3.900769&spn=0.004445,0.006866&t=h&z=17";
-	$map_img = "https://maps.googleapis.com/maps/api/staticmap?center=36.744625,-3.901389&zoom=17&size=500x400&maptype=satellite&markers=color:blue%7C36.745587,-3.901404";
+	$map_link = "http://www.bing.com/maps/?v=2&cp=q3q86dgp8p4d&lvl=18.36152700898244&dir=355.9770790835947&sty=b&cid=10A4F79D80300581!185&form=LMLTCC";
+	$map_img = "https://maps.googleapis.com/maps/api/staticmap?center=36.741558,-3.884952&zoom=17&size=500x400&maptype=satellite&markers=color:blue%7C36.741558,-3.884952";
 
 	$calendar = "https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=um2b1sk7u8gqedi7ornm6hghog%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=Europe%2FMadrid";
 ?>

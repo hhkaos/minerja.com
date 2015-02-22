@@ -29,6 +29,13 @@ Lo primero que tendrás que hacer es personalizar con tus propias casas, para el
 2. Cámbiale el nombre, cadenas y fotos
 3. Añade en el fichero index.php del fichero raíz la referencia a la nueva casa
 4. Añade una pestaña nueva a tu hoja de cálculo con el mismo formato que las anteriores.
+cambiar else if(window.location.href.indexOf("laplaya")){
+    tab = 4;
+  }
+5. Cambiar las referencias del footer
+referencia al footer
+cambiar location string
+
 
 #### Añadir fotos nuevas
 _Pendiente_

@@ -55,14 +55,14 @@
             			</li>
 
             			<li>
-										<a href="<?php echo $basedir;?>Playa/index.htm">
-											<img src="<?php echo $basedir;?>laplaya/photos/pic1.jpg" />
+										<a href="<?php echo $basedir;?>laplaya/?l=<?php echo $l; ?>">
+											<img src="<?php echo $basedir;?>laplaya/photos/desktop_710/pic1.jpg" />
 										</a>
         						La Playa Apartament
             			</li>
             			<li>
-										<a href="<?php echo $basedir;?>nueva/fotos%20del%20piso.htm">
-											<img src="<?php echo $basedir;?>centric/photos/pic1.jpg" />
+										<a href="<?php echo $basedir;?>centro/?l=<?php echo $l; ?>">
+											<img src="<?php echo $basedir;?>centro/photos/desktop_710/pic1.jpg" />
 										</a>
 										Centric apartament
             			</li>

@@ -123,16 +123,16 @@
         						Villa La Vega
             			</li>
             			<li>
-        					<a href="Playa/index.htm">
-        						<img src="laplaya/photos/pic1.jpg" />
-        					</a>
-        						La playa apartment
+										<a href="<?php echo $basedir;?>centro/?l=<?php echo $l; ?>">
+											<img src="<?php echo $basedir;?>laplaya/photos/desktop_710/pic1.jpg" />
+										</a>
+        						La Playa Apartament
             			</li>
             			<li>
-        					<a href="nueva/fotos%20del%20piso.htm">
-        						<img src="centric/photos/pic1.jpg" />
-        					</a>
-        						Centric apartment
+										<a href="<?php echo $basedir;?>laplaya/?l=<?php echo $l; ?>">
+											<img src="<?php echo $basedir;?>centric/photos/desktop_710/pic1.jpg" />
+										</a>
+										Centric apartament
             			</li>
             		</ul>
             	</div>

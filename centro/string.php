@@ -1,5 +1,4 @@
 <?php
-
 	$header["es"] = "Apartamento el Centro en Nerja, Costa del Sol, España";
 	$header["fr"] = "Villa La Torre à Nerja, Costa del Sol, Espagne";
 	$header["en"] = "Villa La Torre in Nerja, Costa del Sol, Spain";

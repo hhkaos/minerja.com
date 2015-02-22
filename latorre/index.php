@@ -51,20 +51,20 @@ $l = get_lang();
             <a href="<?php echo $basedir;?>lavega/?l=<?php echo $l; ?>">
               <img src="<?php echo $basedir;?>lavega/photos/desktop_710/pic1.jpg" />
             </a>
-            Villa La Vega
+            <?php echo $lavega[$l]; ?>
           </li>
 
           <li>
             <a href="<?php echo $basedir;?>laplaya/?l=<?php echo $l; ?>">
               <img src="<?php echo $basedir;?>laplaya/photos/desktop_710/pic1.jpg" />
             </a>
-            La Playa Apartament
+            <?php echo $laplaya[$l]; ?>
           </li>
           <li>
             <a href="<?php echo $basedir;?>centro/?l=<?php echo $l; ?>">
               <img src="<?php echo $basedir;?>centro/photos/desktop_710/pic1.jpg" />
             </a>
-            Centric apartament
+            <?php echo $elcentro[$l]; ?>
           </li>
 
         </ul>

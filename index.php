@@ -114,25 +114,25 @@
         					<a href="latorre/?l=<?php echo $l; ?>">
         						<img src="latorre/photos/desktop_710/pic1.jpg" />
         					</a>
-        						Villa La Torre
+        						<?php echo $latorre[$l]; ?>
             			</li>
             			<li>
         					<a href="lavega/?l=<?php echo $l; ?>">
         						<img src="lavega/photos/desktop_710/pic1.jpg" />
         					</a>
-        						Villa La Vega
+        						<?php echo $lavega[$l]; ?>
             			</li>
-            			<li>
+            			<li class="mt1">
 										<a href="<?php echo $basedir;?>centro/?l=<?php echo $l; ?>">
 											<img src="<?php echo $basedir;?>laplaya/photos/desktop_710/pic1.jpg" />
 										</a>
-        						La Playa Apartament
+        						<?php echo $laplaya[$l]; ?>
             			</li>
-            			<li>
+            			<li class="mt1">
 										<a href="<?php echo $basedir;?>laplaya/?l=<?php echo $l; ?>">
-											<img src="<?php echo $basedir;?>centric/photos/desktop_710/pic1.jpg" />
+											<img src="<?php echo $basedir;?>centro/photos/desktop_710/pic1.jpg" />
 										</a>
-										Centric apartament
+										<?php echo $elcentro[$l]; ?>
             			</li>
             		</ul>
             	</div>

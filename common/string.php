@@ -1,4 +1,21 @@
 <?php
+	$elcentro["es"] = "Apartamento El Centro";
+	$elcentro["fr"] = "Apartamento El Centro";;
+	$elcentro["en"] = "Centric apartment";
+
+	$laplaya["es"] = "Apartamento La Playa";
+	$laplaya["fr"] = "Apartamento La Playa";
+	$laplaya["en"] = "The Beach Apartment";
+
+	$latorre["es"] = "Villa La Torre";
+	$latorre["fr"] = "Villa La Torre";
+	$latorre["en"] = "Villa La Torre";
+
+	$lavega["es"] = "Villa La Vega";
+	$lavega["fr"] = "Villa La Vega";
+	$lavega["en"] = "Villa La Vega";
+
+
 	$menu_detail["es"] = "Detalles";
 	$menu_detail["fr"] = "Détails";
 	$menu_detail["en"] = "Details";

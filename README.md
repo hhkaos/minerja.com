@@ -25,17 +25,13 @@ Lo primero que tendrás que hacer es personalizar con tus propias casas, para el
 5. En script/utils.php cambia las direcciones de correo a las que quiere que envíe el formulario de contacto
 
 #### Añadir casa nueva
-1. Duplica alguna de las carpetas de las casas
-2. Cámbiale el nombre, cadenas y fotos
-3. Añade en el fichero index.php del fichero raíz la referencia a la nueva casa
-4. Añade una pestaña nueva a tu hoja de cálculo con el mismo formato que las anteriores.
-cambiar else if(window.location.href.indexOf("laplaya")){
-    tab = 4;
-  }
-5. Cambiar las referencias del footer
-referencia al footer
-cambiar location string
-
+1. Añade la traducción del nombre del piso en el fichero common/string.php
+2. Duplica alguna de las carpetas de las casas
+3. Cámbiale el nombre, cadenas y fotos (pàginas de fans, calendarios, localización en Google Maps etc.)
+4. Añade en el fichero index.php del fichero raíz la referencia a la nueva casa
+5. Añade una pestaña nueva a tu hoja de cálculo con el mismo formato que las anteriores.
+6. Añade en el fichero common/header.php una línea donde se hara referencia a la pestaña, por ej: if(window.location.href.indexOf("laplaya")){ tab = 4; }
+7. Cambia las referencias en los footer para que haga referencias a las demás propiedades
 
 #### Añadir fotos nuevas
 _Pendiente_

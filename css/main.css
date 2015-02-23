@@ -476,6 +476,11 @@ header{
     height: 34px;
     margin: 5px 0;
 }
+iframe#guide{
+  border-top: 30px solid #000;
+  position: absolute;
+  margin-top: 2em;
+}
 #location img{
     width: 100%;
 }

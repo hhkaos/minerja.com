@@ -35,10 +35,22 @@ $l = get_lang();
   </script>
 
   <script src="../js/main.js"></script>
+  <style type="text/css">
+  #mymap{
+    height: 551px;
+    width: 1191px;
+    margin: 10px auto 0;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: 0;
+  }
+</style>
 </head>
 <body>
   <?php include("../common/header.php"); ?>
   <?php include("../common/body.php"); ?>
+  <iframe src="map.html" id="mymap"></iframe>
 
   <footer class="container">
     <section class="row">
@@ -48,18 +60,18 @@ $l = get_lang();
       <div class="col-md-12">
         <ul id="others" class="clearfix">
           <li>
-            <a href="<?php echo $basedir;?>latorre/?l=<?php echo $l; ?>">
-              <img src="<?php echo $basedir;?>latorre/photos/desktop_710/pic1.jpg" />
-            </a>
-            <?php echo $latorre[$l]; ?>
-          </li>
-          <li>
             <a href="<?php echo $basedir;?>lavega/?l=<?php echo $l; ?>">
               <img src="<?php echo $basedir;?>lavega/photos/desktop_710/pic1.jpg" />
             </a>
             <?php echo $lavega[$l]; ?>
           </li>
 
+          <li>
+            <a href="<?php echo $basedir;?>laplaya/?l=<?php echo $l; ?>">
+              <img src="<?php echo $basedir;?>laplaya/photos/desktop_710/pic1.jpg" />
+            </a>
+            <?php echo $laplaya[$l]; ?>
+          </li>
           <li>
             <a href="<?php echo $basedir;?>centro/?l=<?php echo $l; ?>">
               <img src="<?php echo $basedir;?>centro/photos/desktop_710/pic1.jpg" />
@@ -71,7 +83,7 @@ $l = get_lang();
       </div>
     </section>
   </footer>
-  
+
 
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

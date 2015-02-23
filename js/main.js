@@ -48,6 +48,8 @@ $(document).ready(function(){
 
 
   if(!md.mobile() || window.innerWidth > 767){
+    $("body").append('<iframe id="guide" width="100%" height="550px" src="http://hhkaos2.maps.arcgis.com/apps/MapJournal/index.html?appid=e2fb6e3d480f4247a6295eee676db358" frameborder="0" scrolling="no"></iframe>');
+
     params = {
       auto:true,
       autoControls: true,

@@ -42,11 +42,7 @@
 			section.header{
 				margin-top: 2em;
 			}
-			iframe{
-				border-top: 30px solid #000;
-				position: absolute;
-				margin-top: 2em;
-			}
+			
 			#properties ul{
 				list-style: none;
 				padding: 0;
@@ -123,13 +119,13 @@
         						<?php echo $lavega[$l]; ?>
             			</li>
             			<li class="mt1">
-										<a href="<?php echo $basedir;?>centro/?l=<?php echo $l; ?>">
+										<a href="<?php echo $basedir;?>laplaya/?l=<?php echo $l; ?>">
 											<img src="<?php echo $basedir;?>laplaya/photos/desktop_710/pic1.jpg" />
 										</a>
         						<?php echo $laplaya[$l]; ?>
             			</li>
             			<li class="mt1">
-										<a href="<?php echo $basedir;?>laplaya/?l=<?php echo $l; ?>">
+										<a href="<?php echo $basedir;?>centro/?l=<?php echo $l; ?>">
 											<img src="<?php echo $basedir;?>centro/photos/desktop_710/pic1.jpg" />
 										</a>
 										<?php echo $elcentro[$l]; ?>
@@ -138,6 +134,6 @@
             	</div>
             </section>
         </div>
-        <iframe id="guide" width="100%" height="550px" src="http://hhkaos2.maps.arcgis.com/apps/MapJournal/index.html?appid=e2fb6e3d480f4247a6295eee676db358" frameborder="0" scrolling="no"></iframe>
+        
     </body>
 </html>

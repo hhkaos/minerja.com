@@ -1,15 +1,296 @@
 {
+    "default": {
+        "autoLoad": true,
+        "type": "multires",
+        "firstScene": "perlaMarina",
+        "sceneFadeDuration": 2000
+    },
     
-    "autoLoad": true, 
-    "type": "multires",
-    
-    "multiRes": {
-        "basePath": "./pic1",
-        "path": "/%l/%s%y_%x",
-        "fallbackPath": "./fallback/%s",
-        "extension": "jpg",
-        "tileResolution": 512,
-        "maxLevel": 4,
-        "cubeResolution": 2280
+    "scenes": {
+        "kitchen": {
+            
+            "multiRes": {
+                "basePath": "./pic4",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": 54,
+                    "type": "info",
+                    "text": "Air conditioner",
+                    "URL": "https://github.com/mpetroff/pannellum"
+                },
+                {
+                    "pitch": -14,
+                    "yaw": -152,
+                    "type": "scene",
+                    "text": "Secondary bedroom",
+                    "sceneId": "secondRoom",
+                    "targetPitch": -43,
+                    "targetYaw": -163
+                },
+                {
+                    "pitch": -26,
+                    "yaw": 169,
+                    "type": "scene",
+                    "text": "Living room",
+                    "sceneId": "livingRoom",
+                    "targetPitch": -18,
+                    "targetYaw": -141
+                }
+            ]
+        },
+        "livingRoom": {
+            
+            "multiRes": {
+                "basePath": "./pic3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": -14,
+                    "yaw": -39,
+                    "type": "scene",
+                    "text": "Secondary bedroom",
+                    "sceneId": "secondRoom",
+                    "targetPitch": -42,
+                    "targetYaw": 178
+                },
+                {
+                    "pitch": -12,
+                    "yaw": -179,
+                    "type": "scene",
+                    "text": "Terrace",
+                    "sceneId": "terrace"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -136,
+                    "type": "scene",
+                    "text": "Main bedroom",
+                    "sceneId": "mainBedroom",
+                    "targetPitch": -25,
+                    "targetYaw": -41
+                },
+                {
+                    "pitch": -23,
+                    "yaw": -100,
+                    "type": "info",
+                    "text": "English channels available",
+                    "URL": "https://github.com/mpetroff/pannellum"
+                }
+                ,
+                {
+                    "pitch": -6,
+                    "yaw": -113,
+                    "type": "info",
+                    "text": "DVD Player",
+                    "URL": "https://github.com/mpetroff/pannellum"
+                }
+            ]
+        },
+        "terrace": {
+            
+            "multiRes": {
+                "basePath": "./pic8",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": -1,
+                    "yaw": 60,
+                    "type": "scene",
+                    "text": "Living room",
+                    "sceneId": "livingRoom",
+                    "targetPitch": -14,
+                    "targetYaw": 4
+                },
+                {
+                    "pitch": -18,
+                    "yaw": -88,
+                    "type": "scene",
+                    "text": "Go to the beach",
+                    "sceneId": "beach",
+                    "targetPitch": 17,
+                    "targetYaw": 2.7
+                },
+                {
+                    "pitch": 18,
+                    "yaw": -79,
+                    "type": "scene",
+                    "text": "Drone view",
+                    "sceneId": "drone"
+                }
+            ]
+        },
+        "drone": {
+            
+            "multiRes": {
+                "basePath": "./pic9",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": 18,
+                    "yaw": -3,
+                    "type": "scene",
+                    "text": "Go back to the terrace",
+                    "sceneId": "terrace"
+                }
+            ]
+        },
+        "beach": {
+            
+            "multiRes": {
+                "basePath": "./pic2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": 18,
+                    "yaw": -3,
+                    "type": "scene",
+                    "text": "Go back to the terrace",
+                    "sceneId": "terrace"
+                }
+            ]
+        },
+        "mainBedroom": {
+            
+            "multiRes": {
+                "basePath": "./pic5",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": -7,
+                    "yaw": -43,
+                    "type": "scene",
+                    "text": "Bathroom",
+                    "sceneId": "bathroom",
+                    "targetPitch": -2,
+                    "targetYaw": -106
+                },
+                {
+                    "pitch": -7,
+                    "yaw": -32,
+                    "type": "scene",
+                    "text": "Living room",
+                    "sceneId": "livingRoom",
+                    "targetPitch": -16,
+                    "targetYaw": 119
+                }
+            ]
+        },
+        "bathroom": {
+            
+            "multiRes": {
+                "basePath": "./pic6",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": -6,
+                    "yaw": -50,
+                    "type": "scene",
+                    "text": "Bedroom",
+                    "sceneId": "bedroom",
+                    "targetPitch": -37,
+                    "targetYaw": 1.5
+                },
+                {
+                    "pitch": -8,
+                    "yaw": -71,
+                    "type": "scene",
+                    "text": "Living room",
+                    "sceneId": "livingRoom",
+                    "targetPitch": -16,
+                    "targetYaw": 119
+                }
+            ]
+        },
+        "secondRoom": {
+            
+            "multiRes": {
+                "basePath": "./pic7",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": -13,
+                    "yaw": -24,
+                    "type": "scene",
+                    "text": "Living room",
+                    "sceneId": "kitchen",
+                    "targetPitch": -15,
+                    "targetYaw": 184
+                }
+            ]
+        },
+         "perlaMarina": {
+            
+            "multiRes": {
+                "basePath": "./pic1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "./fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 2280
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to the apartment",
+                    "sceneId": "kitchen",
+                    "targetPitch": -10,
+                    "targetYaw": -172
+                }
+            ]
+        }
     }
 }
+

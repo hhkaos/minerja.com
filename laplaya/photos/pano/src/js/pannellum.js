@@ -447,6 +447,20 @@ function onDocumentMouseDown(event) {
         return;
     }
     
+    // Log pitch / yaw of mouse click when debugging / placing hot spots
+    if (config.hotSpotDebug) {
+        var x = event.clientX / renderer.canvas.width * 2 - 1;
+        var y = (1 - event.clientY / renderer.canvas.height * 2) * renderer.canvas.height / renderer.canvas.width;
+        var focal = 1 / Math.tan(config.hfov * Math.PI / 360);
+        var s = Math.sin(config.pitch * Math.PI / 180);
+        var c = Math.cos(config.pitch * Math.PI / 180);
+        var a = focal * c - y * s;
+        var root = Math.sqrt(x*x + a*a)
+        var pitch = Math.atan((y * c + focal * s) / root) * 180 / Math.PI;
+        var yaw = Math.atan2(x / root, a / root) * 180 / Math.PI + config.yaw;
+        console.log('Pitch: ' + pitch + ', Yaw: ' + yaw);
+    }
+    
     // Turn off auto-rotation if enabled
     config.autoRotate = false;
     
@@ -458,7 +472,7 @@ function onDocumentMouseDown(event) {
     
     onPointerDownYaw = config.yaw;
     onPointerDownPitch = config.pitch;
-
+    
     container.classList.add('grabbing');
     container.classList.remove('grab');
     
@@ -478,11 +492,6 @@ function onDocumentMouseMove(event) {
         var pitch = ((Math.atan(event.clientY / renderer.canvas.height * 2 - 1) - Math.atan(onPointerDownPointerY / renderer.canvas.height * 2 - 1)) * 180 / Math.PI * vfov / 90) + onPointerDownPitch;
         pitchSpeed = (pitch - config.pitch) * 0.2;
         config.pitch = pitch;
-
-        if(debug==true){
-            console.log("pitch=",pitch)
-            console.log("yaw=",yaw*-1)
-        }
     }
 }
 
@@ -492,6 +501,8 @@ function onDocumentMouseUp() {
     }
     isUserInteracting = false;
     if (Date.now() - latestInteraction > 15) {
+        // Prevents jump when user rapidly moves mouse, stops, and then
+        // releases the mouse button
         pitchSpeed = yawSpeed = 0;
     }
     container.classList.add('grab');
@@ -556,7 +567,7 @@ function onDocumentTouchMove(event) {
 
 function onDocumentTouchEnd() {
     isUserInteracting = false;
-    if (Date.now() - latestInteraction > 15) {
+    if (Date.now() - latestInteraction > 150) {
         pitchSpeed = yawSpeed = 0;
     }
     onPointerDownPointerDist = -1;
@@ -766,8 +777,8 @@ function keyRepeat() {
     
     // If auto-rotate
     var inactivityInterval = Date.now() - latestInteraction;
-    if (config.autoRotate && inactivityInterval > config.autoRotateInactivityDelay
-        && config.autoRotateStopDelay !== false) {
+    if (config.autoRotate && inactivityInterval > config.autoRotateInactivityDelay &&
+        config.autoRotateStopDelay !== false) {
         // Pan
         if (diff > 0.000001) {
             config.yaw -= config.autoRotate / 60 * diff;
@@ -1039,7 +1050,7 @@ function destroyHotSpots() {
 function renderHotSpots() {
     config.hotSpots.forEach(function(hs) {
         var z = Math.sin(hs.pitch * Math.PI / 180) * Math.sin(config.pitch * Math.PI /
-            180) + Math.cos(hs.pitch * Math.PI / 180) * Math.cos((hs.yaw + config.yaw) *
+            180) + Math.cos(hs.pitch * Math.PI / 180) * Math.cos((-hs.yaw + config.yaw) *
             Math.PI / 180) * Math.cos(config.pitch * Math.PI / 180);
         if ((hs.yaw <= 90 && hs.yaw > -90 && z <= 0) ||
           ((hs.yaw > 90 || hs.yaw <= -90) && z <= 0)) {
@@ -1049,13 +1060,13 @@ function renderHotSpots() {
             // Subpixel rendering doesn't work in Firefox
             // https://bugzilla.mozilla.org/show_bug.cgi?id=739176
             var transform = 'translate(' + (-renderer.canvas.width /
-                Math.tan(config.hfov * Math.PI / 360) * Math.sin((hs.yaw +
+                Math.tan(config.hfov * Math.PI / 360) * Math.sin((-hs.yaw +
                 config.yaw) * Math.PI / 180) * Math.cos(hs.pitch * Math.PI /
                 180) / z / 2 + renderer.canvas.width / 2 - 13) + 'px, ' +
                 (-renderer.canvas.width / Math.tan(config.hfov * Math.PI / 360) *
                 (Math.sin(hs.pitch * Math.PI / 180) * Math.cos(config.pitch *
                 Math.PI / 180) - Math.cos(hs.pitch * Math.PI / 180) *
-                Math.cos((hs.yaw + config.yaw) * Math.PI / 180) *
+                Math.cos((-hs.yaw + config.yaw) * Math.PI / 180) *
                 Math.sin(config.pitch * Math.PI / 180)) / z / 2 +
                 renderer.canvas.height / 2 - 13) + 'px) translateZ(1000000000px)';
             hs.div.style.webkitTransform = transform;

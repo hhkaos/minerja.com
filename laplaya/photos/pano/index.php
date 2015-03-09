@@ -13,7 +13,7 @@
     	webkitAllowFullScreen mozallowfullscreen 
     	allowFullScreen 
     	style="border-style:none;width:467px;height:301px" 
-    	src="src/pannellum.htm?tour=../pic<?php echo $_GET["id"]; ?>.json&amp;autoload=yes"
+    	src="src/pannellum.htm?tour=../pic<?php echo $_GET["id"]; ?>.json&amp;autoload=yes&amp;hotSpotDebug=true"
     ></iframe>
 </body>
 </html>

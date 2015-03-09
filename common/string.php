@@ -1,10 +1,10 @@
 <?php
 	$elcentro["es"] = "Apartamento El Centro";
-	$elcentro["fr"] = "Apartamento El Centro";;
+	$elcentro["fr"] = "Appartement El Centro";;
 	$elcentro["en"] = "Centric apartment";
 
 	$laplaya["es"] = "Apartamento La Playa";
-	$laplaya["fr"] = "Apartamento La Playa";
+	$laplaya["fr"] = "Appartement La Playa";
 	$laplaya["en"] = "The Beach Apartment";
 
 	$latorre["es"] = "Villa La Torre";
@@ -25,7 +25,7 @@
 	$menu_reviews["en"] = "Reviews";
 
 	$menu_avail["es"] = "Disponibilidad";
-	$menu_avail["fr"] = "Disponibilité";
+	$menu_avail["fr"] = "Disponibilités";
 	$menu_avail["en"] = "Availability";
 
 	$menu_price["es"] = "Precio";
@@ -56,7 +56,7 @@
 	$prices_col3["fr"] = "Séjour min. (Nuits)";
 	$prices_col3["en"] = "Min. Stay (Nights)";
 
-	$availability_txt1["es"] = "Si tienen alguna duda, por favor, contáctame bien por e-mail nerja@gmx.es o por teléfono: +34-655087577.";
+	$availability_txt1["es"] = "Si tiene alguna duda, por favor, contáctame bien por e-mail nerja@gmx.es o por teléfono: +34-655087577.";
   $availability_txt1["fr"] = "Si vous avez des questions, s'il vous plaît contactez-moi par e-mail: nerja@gmx.es ou par téléphone. + 34-655087577";
 	$availability_txt1["en"] = "If you have any questions, please contact me by e-mail nerja@gmx.es or by phone: + 34-655087577.";
 
@@ -156,7 +156,7 @@
 	$Dic["fr"] = "Déc";
 	$Dic["en"] = "Dec";
 
-	$form_success["es"] = "¡Gracias!, el correo se ha enviado con éxito, me pondré en contacto contigo lo antes posible.";
+	$form_success["es"] = "¡Gracias!, el correo se ha enviado con éxito, me pondré en contacto con Usted lo antes posible.";
 	$form_success["fr"] = "Merci!, Le mail a été envoyé, je vais revenir vers vous dès que possible";
 	$form_success["en"] = "Thanks!, the mail has been sent, I will contact you ASAP.";
 
@@ -164,9 +164,9 @@
 	$form_no_success["fr"] = "Désolé, votre message n'a pas pu être envoyé, s'il vous plaît réessayer plus tard";
 	$form_no_success["en"] = "Sorry, the mail has not been sent, please try again later.";
 
-	$form_intro["es"] = "Mi nombre es Luis. Yo soy español pero también hablo francés y un poco de inglés, por favor no dude en ponerse en contacto conmigo para cualquier cosa que necesite.";
-	$form_intro["fr"] = "Mon nom est Luis. Je suis Espagnol, mais je parle aussi le français et un peu l'anglais, s'il vous plaît ne hésitez pas à me contacter pour tout ce que vous avez besoin";
-	$form_intro["en"] = "My name is Luis. I'm a native spanish speaker and I can speak a little bit of english, but please do not hesitate to contact me for anything you need.";
+	$form_intro["es"] = "Mi nombre es Luis, por favor no dude en ponerse en contacto conmigo para cualquier aclaración que necesite.";
+	$form_intro["fr"] = "Mon nom est Luis (je suis Espagnol, mais je parle aussi le français et un peu l'anglais), s'il vous plaît, demandez vous toutes les questions et précisions que vous avez besoin..";
+	$form_intro["en"] = "My name is Luis, I speak Spanish and French (I understand very little English), please, you ask me all the questions and clarifications you need (for me it is easier to respond by mail).";
 
 	$form_title["es"] = "Formulario de contacto";
 	$form_title["fr"] = "Formulaire de contact";

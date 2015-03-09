@@ -1,7 +1,7 @@
 <?php
 	$header["es"] = "Apartamento frente al mar en Nerja, Costa del Sol, España";
 	$header["fr"] = "Appartement  front de mer à Nerja, Costa del Sol, Espagne";
-	$header["en"] = "Beachfront Apartmen in Nerja, Costa del Sol, Spain";
+	$header["en"] = "Beachfront Apartment in Nerja, Costa del Sol, Spain";
 
 	$also_anounced["es"] = "También anunciada en:";
 	$also_anounced["fr"] = "Également annoncé au:";
@@ -70,10 +70,11 @@
 	$prop_desc["fr"] = "Propriété Description";
 	$prop_desc["en"] = "Property description";
 
-	$prop_desc_det["es"] = "<strong>Apartamento de 66 m con impresionantes vistas al mar, en edificio muy tranquilo</strong><br>
-Apartamento situado en la 3ª planta y última del edificio (con ascensor)de solo 12 apartamentos. Prácticamente sobre el mar (situado en el paseo marítimo, junto al Hotel Perla Marina) hace que la tranquilidad y calma estén garantizadas y solo como susurro tendrá el sonido de las olas.
-Sin caminos para cruzar entre el apartamento y la playa, es ideal para niños y adultos por igual. Situado a sólo 5 minutos a pie de la principal zona comercial de Nerja. Hay dos supermercados a 2 minutos. El precioso casco antiguo (con sus numerosas tiendas, restaurantes y bares) se encuentra a 10 minutos de agradable paseo, donde encontrará el famoso<strong> Balcón de Europa</strong>, con impresionantes vistas de la costa y las montañas.
-.";
+	$prop_desc_det["es"] = "<strong>Apartamento de 66 m con impresionantes vistas al mar, en edificio muy tranquilo</strong><br>Apartamento situado en la 3ª planta y última
+	del edificio (con ascensor)de solo 12 apartamentos. Prácticamente sobre el mar (situado en el paseo marítimo, junto al Hotel Perla Marina) hace que la tranquilidad y calma
+	estén garantizadas y solo, como susurro, tendrá el sonido de las olas. Sin caminos para cruzar entre el apartamento y la playa, es ideal para niños y adultos por igual. Situado
+	 a sólo 5 minutos a pie de la principal zona comercial de Nerja. Hay dos supermercados a 2 minutos. El precioso casco antiguo (con sus numerosas tiendas, restaurantes y bares)
+	 se encuentra a 10 minutos de agradable paseo, allí encontrará el famoso<strong> Balcón de Europa</strong>, con impresionantes vistas de la costa y las montañas.";
 	$prop_desc_det["fr"] = "<strong>APPARTEMENT DANS UN CADRE IDYLLIQUE, FRONT DE MER, AUCUN RIVAL À NERJA</strong><br>
 Appartement en location de vacances, situé sur le 3ème et dernier étage de l'immeuble (avec ascenseur) de seulement douze appartements. Pratiquement sur la mer (la promenade) rend la paix et la tranquillité sont garanties, et seulement comme un chuchotement a le bruit des vagues.Pas de route à traverser entre l'appartement et la plage est super pour les enfants et les adultes. Situé à seulement 5 minutes à pied de la principale zone commerçante de Nerja. Il ya deux supermarchés à moins de 2 minutes. La vieille ville (avec ses nombreux magasins, restaurants et bars) est une promenade de 10 minutes, où vous trouverez le célèbre <strong> Balcon de l'Europe </strong>, avec vue imprenable sur la côte et les montagnes.";
 	$prop_desc_det["en"] = "<strong>Idyllic Location.</strong> Unrivalled in Nerja. Panoramic Sea Views<br>Stunning Peaceful Location, In The Beach<br>
@@ -107,7 +108,8 @@ Virtually on the sea (along the board walk) makes the peace and quiet guaranteed
 	$liv_room["fr"] = "Salon et salle à manger";
 	$liv_room["en"] = "Living Rooms:";
 
-	$liv_room_det["es"] = "Amplio salón con cocina integrada.<br>Salón-comedor con TV, TV vía satélite con canales en inglés, francés, alemán, italiano ... (satélites Astra 28,2º y Astra 19 °), reproductor de DVD.<br> Mesa de comedor para 4 plazas.<br> Sofá.";
+	$liv_room_det["es"] = "Amplio salón con cocina integrada.<br>Salón-comedor con TV, TV vía satélite con canales en inglés, francés, alemán, italiano ... (satélites Astra 28,2º
+	 y Astra 19 °), reproductor de DVD.<br> Mesa de comedor para 4 plazas.<br> Sofá.";
 	$liv_room_det["fr"] = "Grand salon avec cuisine intégrée.<br>Salon avec TV, chaînes satellite en anglais, français, allemand, italien ... (satellites Astra Astra 28,2 ° et 19 °)lecteur DVD.<br>Table à manger avec 4 sièges.<br>Canapé.";
 	$liv_room_det["en"] = "Spacious living room with integrated kitchen.<br>Dining room whit equipment TV, Satellite tv with English channels, French, German, Italian...(satellites: astra 28.2 ° and astra 19 °) DVD player.<br> Dining table with 4 seats.<br>Sofa.";
 
@@ -115,9 +117,10 @@ Virtually on the sea (along the board walk) makes the peace and quiet guaranteed
 	$other["fr"] = "D'autres";
 	$other["en"] = "Other:";
 
-	$other_det["es"] = "Destacar la terraza de aproximadamente 10m, donde usted podrá disfrutar de una extraordinaria tranquilidad y con la maravillosa vista del mar. Ideal para hacer todas las comidas..";
-	$other_det["fr"] = "Souligner la terrasse d'environ 10m, où vous pourrez profiter d'une tranquillité extraordinaire et la vue magnifique sur la mer. Idéal pour tous les repas..";
-	$other_det["en"] = "Highlighting the terrace of about 10m, where you can enjoy an extraordinary tranquility and the wonderful view of the sea. Ideal for all meals..";
+	$other_det["es"] = "Destacar la terraza, de aproximadamente 10m, donde usted podrá disfrutar de una extraordinaria tranquilidad y con la maravillosa vista del mar.
+	Ideal para hacer todas las comidas.";
+	$other_det["fr"] = "Souligner la terrasse d'environ 10m, où vous pourrez profiter d'une tranquillité extraordinaire et la vue magnifique sur la mer. Idéal pour tous les repas.";
+	$other_det["en"] = "Highlighting the terrace of about 10m, where you can enjoy an extraordinary tranquility and the wonderful view of the sea. Ideal for all meals.";
 
 	$cleaning["es"] = "Servicio de limpieza / toallas / ropa:";
 	$cleaning["fr"] = "Service de ménage. Serviettes et draps";
@@ -131,18 +134,20 @@ Virtually on the sea (along the board walk) makes the peace and quiet guaranteed
 	$facilities["fr"] = "Services / Équipement";
 	$facilities["en"] = "Amenities / Facilities:";
 
-	$facilities_det["es"] = "Aire acondicionado(funciona con monedas).<br>Plancha con tabla, Ventilador, Secador de pelo.<br>	Mesas y sillas de terrazas.<BR> Animales no admitidos.<br>Accesibilidad: Ascensor, hay 5 escalones para llegar al apartamento.<br><strong>Posibilidad de Parking privado(no incluido en precio).</strong>";
+	$facilities_det["es"] = "Aire acondicionado(funciona con monedas).<br>Plancha con tabla, Ventilador, Secador de pelo.<br>	Mesas y sillas de terrazas.<BR> Animales no admitidos.<br>
+	Accesibilidad: Ascensor, hay 5 escalones para llegar al apartamento.<br><strong>Posibilidad de Parking privado(no incluido en precio).</strong>";
 	$facilities_det["fr"] = "Climatisation (exploité par insertion de pièces).<br>Planche et fer à repasser, Ventilateur, Sèche-cheveux.<br>Tables et chaises de terrasses.<br>Animaux non admis.<br> Accessibilité: ascenseur, mais aussi cinq étapes jusqu'à appartement.<br><strong>Possibilité de parking privé (non inclus dans le prix).</strong>";
 	$facilities_det["en"] = "Air conditioning (coin operated).<br>Iron and board, Fan, Hair Dryer.<br> Tables and chairs terraces.<br>Animaux non admis.<br>Accessibility: Elevator, but also 5 steps up to apartment.<br><strong>Possibility of Private parking (not included in price).</strong>";
 
 
-	$prices_text_1["es"] = "<strong>Notas sobre los precios: </strong> Descuentos para reservas de más de 3 semanas en invierno.<br><strong>Cambios: </strong>Llegada después de las 15:00. Salida 9:30 am, aunque esto es flexible, depende de la ocupación en el día de salida. Día de cambio flexible; en Julio y
-Agosto los dias de cambio son los sábados";
+	$prices_text_1["es"] = "<strong>Notas sobre los precios: </strong> Descuentos para reservas de más de 3 semanas en invierno.<br><strong>Cambios: </strong>Llegada después de
+	las 15:00. Salida 9:30 am, aunque esto es flexible, depende de la ocupación en el día de salida. Día de cambio flexible; en Julio y Agosto los dias de cambio son los Viernes";
 	$prices_text_1["fr"] = "<strong>Notes sur les prix: </strong> Réductions pour les réservations 3+ semaines en hiver. <br><strong>Jours de basculement:</strong> Arrivée après 15 heures. Départ à 09h30, même si ce est flexible, en fonction de l'occupation sur le jour du départ. Les jours de basculement sont fiables; en Juillet et
-Août, les jours de changement sont le samedi";
-	$prices_text_1["en"] = "<strong>Notes on prices: </strong>Discounts for 3+ week bookings in Winter.<br><strong>Changeover day: </strong>Change over day is flexible. Arrival after 15:00. Departure 9:30am, though this is flexible dependent on occupancy requirements on the departure day. In July and August the Change over day is to Saturday.";
+Août, les jours de changement sont le Vendredi";
+	$prices_text_1["en"] = "<strong>Notes on prices: </strong>Discounts for 3+ week bookings in Winter.<br><strong>Changeover day: </strong>Change over day is flexible. Arrival after
+	 15:00. Departure 9:30am, though this is flexible dependent on occupancy requirements on the departure day. In July and August the Change over day is to Friday.";
 
-	$prices_text_2["es"] = "<strong>Reservas: </strong> 20% en la reserva. 20% un mes antes de su llegada. 60% restante a su llegada a la villa.
+	$prices_text_2["es"] = "<strong>Reservas: </strong> 20% en la reserva. 20% un mes antes de su llegada. 60% restante a su llegada al apartamento.
 30% de depósito, devuelto al final.";
 	$prices_text_2["fr"] = "<strong>Réservation: </strong>20% en réserve. 20% un mois avant son arrivée. 60% restants avant d'entrer.
 Dépôt de 30% sont retournés à la fin.";

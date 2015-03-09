@@ -12,7 +12,7 @@ $l = get_lang();
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Villa La Torre in Nerja, Costa del Sol, Spain</title>
+  <title>Beachfront Apartment in Nerja, Costa del Sol, Spain</title>
   <meta name="description" content="Villa in Nerja situated at sea level, with a beautiful beach just 100 metres away. We have a private pool and sea views">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="/favicon.ico">
@@ -71,7 +71,7 @@ $l = get_lang();
       </div>
     </section>
   </footer>
-  
+
 
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
